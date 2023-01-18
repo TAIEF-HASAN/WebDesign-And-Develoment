@@ -1,6 +1,7 @@
 p{
     font-weight: bold;
     color: blue;
+    text-decoration:overline;
 }
 h2{
     color: red;
