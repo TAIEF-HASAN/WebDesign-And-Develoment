@@ -13,3 +13,8 @@ h2{
 #orange{
     color: orange;
 }
+
+.font-bold{
+    font-weight: bold;
+    font-style: italic;
+}
