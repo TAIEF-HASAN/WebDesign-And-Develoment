@@ -1,9 +1,9 @@
 p{
-    font-weight: initial;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3rem;
-    font-variant: small-caps;
-    font-style:unset;
+  
     text-transform: uppercase;
+
+    font: italic bold small-caps 50px/150% tahoma;
+
+
     
 }
