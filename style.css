@@ -1,21 +1,6 @@
 p{
-    font-weight: bold;
-    color: blue;
-    text-decoration:overline;
-}
-h2{
-    color: red;
-}
-
-.blue{
-    color:green;
-}
-
-#orange{
-    color: rgb(185, 134, 37);
-}
-
-.font-bold{
-    font-weight: bold;
-    font-style: italic;
+    font-weight: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    
 }
