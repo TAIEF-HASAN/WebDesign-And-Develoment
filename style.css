@@ -1,9 +1,19 @@
 p{
   
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150%;
+    text-decoration: dotted;
+
+    background-image: url(images/S-Jobs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*
+    font: normal small-caps 10px/150% tahoma;
     text-transform: uppercase;
-
-    font: italic bold small-caps 50px/150% tahoma;
-
-
+*/
     
 }
