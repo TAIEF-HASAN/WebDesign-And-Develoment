@@ -22,8 +22,29 @@
 table{
     width: 500px;
     text-align: center;
+    margin: 50px auto;
+    background-color: darkgray;
+    
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid red; 
 }
 
 .TAlign{
     text-align: left;
+}
+
+.color{
+    background-color:black;
+    color: aliceblue;
+}
+
+.numeric{
+    background-color: blue;
+}
+
+table caption{
+    background-color: aquamarine;
 }
