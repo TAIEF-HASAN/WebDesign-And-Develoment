@@ -32,7 +32,17 @@
     height: 250px;
     background-color: black;
     color: white;
-    margin-top: 50px;
+    /*margin-top: 50px;
     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;*/
+
+    margin: 100px 150px 100px 150px ;
+
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+
 }
 
