@@ -19,8 +19,11 @@
     
 }*/
 
-#wrapper>p{
-    color: red;
-}
+#wrapper {
+    width:30em;
+    height: 10em;
+    border: 1px solid red;
+    overflow:scroll;
 
+}
 
