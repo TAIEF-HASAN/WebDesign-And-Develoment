@@ -1,28 +1,17 @@
-/*p{ 
-  
-    font-style: normal;
-    font-variant: small-caps;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 150%;
-    text-decoration: dotted;
+.block1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+}
 
-    background-image: url(images/S-Jobs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-    font: normal small-caps 10px/150% tahoma;
-    text-transform: uppercase;
-
-
-    
-}*/
-
-#wrapper span{
-    display: block;
-    background-color: black;
-    color: white;
+.block2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    float: left;
 
 }
+
 
