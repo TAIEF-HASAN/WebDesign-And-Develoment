@@ -2,17 +2,21 @@
     height: 200px;
     width: 200px;
     background-color: red;
-    transition: background-color 2s, margin-left 2s, height 2s, width 2s cubic-bezier(.18,.89,.32,1.28);
+    transition: all 2s cubic-bezier(.18,.89,.32,1.28);
+    margin: 300px;
 
     
 }
 
 .block1:hover{
-    height: 300px;
-    width: 300px;
+    /*height: 300px;
+    width: 300px;*/
     background-color: green;
-    margin-left: 50px;
 
+    transform: scale(2,2);
+    /*transform: rotate(360deg);
+    transform: skewX(90deg);
+    transform: skewY(90deg);*/
 
 }
 
