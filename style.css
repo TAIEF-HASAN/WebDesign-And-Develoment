@@ -2,6 +2,14 @@
     height: 200px;
     width: 200px;
     background-color: red;
+    -o-transition: all 2s cubic-bezier(.18,.89,.32,1.28);
+    margin: 300px;
+    -ms-transition: all 2s cubic-bezier(.18,.89,.32,1.28);
+    margin: 300px;
+    -moz-transition: all 2s cubic-bezier(.18,.89,.32,1.28);
+    margin: 300px;
+    -webkit-transition: all 2s cubic-bezier(.18,.89,.32,1.28);
+    margin: 300px;
     transition: all 2s cubic-bezier(.18,.89,.32,1.28);
     margin: 300px;
 
@@ -9,13 +17,17 @@
 }
 
 .block1:hover{
-    /*height: 300px;
-    width: 300px;*/
+    height: 300px;
+    width: 300px;
     background-color: green;
 
-    transform: scale(2,2);
-    /*transform: rotate(360deg);
-    transform: skewX(90deg);
+    /*transform: scale(2,2);*/
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    /*transform: skewX(90deg);
     transform: skewY(90deg);*/
 
 }
