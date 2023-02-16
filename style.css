@@ -1,6 +1,4 @@
-.Wrapper{
-    background: url(Images/pexels.jpg) no-repeat;
-    background-size: 100em 50em;
-    color: white;
-    background-attachment: fixed;
+ul{
+    list-style-type:square;
 }
+
