@@ -1,1 +1,23 @@
+input[type = text]{
+    width: 150px;
+    height: 50px;
+    color:red;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+textarea{
+    color: blue;
+
+}
+
+input[type = submit]{
+    height: 50px;
+    width: 100px;
+    color: red;
+    padding: 5px;
+    border-radius: ;
+}
+
 
