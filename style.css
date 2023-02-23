@@ -2,5 +2,5 @@ div.myDiv{
 
     width: 500px;
     height: 200px;
-    background:-moz-linear-gradient(to right, red, green, yellow, orange);
+    background:radial-gradient( red 5%, green 95%);
 }
