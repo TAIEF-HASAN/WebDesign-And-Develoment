@@ -11,8 +11,12 @@ div.myDiv{
 }
 
 @keyframes a{
-    from{background-color: red;}
-    to{background-color: green;
+    0%{background-color: red;}
+    20%{background-color: green;
     border-radius: 50%;}
+    40%{background-color: black;}
+    80%{background-color: orange; width: 400PX;}
+    100%{background-color: aqua;}
+
     
 }
