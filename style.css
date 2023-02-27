@@ -1,18 +1,24 @@
 div.myDiv{
 
     margin-top: 100px;
-    width: 200px;
-    height: 200px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
     background-color: #ff0000;
     animation-name: a;
     animation-duration: 2s;
     animation-iteration-count:infinite;
     position:relative;
-    animation-direction: alternate;
+    animation-direction:;
     
 }
 
 @keyframes a{
-    from{left: 0px;}
-    to{left: 200px;}
+    0%{left: 0; top: 0}
+    25%{left: 200px; top:0}
+    50%{left: 200px; top: 200px}
+    75%{left: 0; top: 200px}
+    100%{left: 0; top: 0}
+    
+
 }
