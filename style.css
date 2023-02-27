@@ -3,7 +3,7 @@ div.myDiv{
     margin-top: 100px;
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: #ff0000;
     animation-name: a;
     animation-duration: 2s;
     animation-iteration-count: 3;
