@@ -1,5 +1,6 @@
-audio{
-    width: 600px;
-    background: aqua;
-    border-radius: 10px;
+video{
+    width: 1000px;
+    padding: 20px;
+    /*background-color: black;*/
+    border-radius: 50px;
 }
