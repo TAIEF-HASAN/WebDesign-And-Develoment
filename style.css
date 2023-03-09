@@ -5,21 +5,29 @@
 #menu{
     padding: 0px;
     list-style-type: none;
+    width: 960px;
+    background: #4e4e4e;
+    border-bottom: 3px solid orange;
+    min-height: 38px;
+    margin: 0 auto;
     
 }
 
 #menu li{
     float:left;
-    border-right: 1px solid red;
+    border-right: 1px solid #605b5b;
+    border-left: 1px solid #2b2a2a;
+    
+    
     
     
 }
 
 #menu li a{
     
-    background-color: black;
+    
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     display: block;
 }
@@ -27,9 +35,14 @@
 #menu li:last-child{
     border-right: none;
 }
+#menu li:first-child{
+    border-left: none;
+}
 
 #menu li a:hover{
     background-color: orange;
+    transition: 1s ease all;
 }
+
 
 
