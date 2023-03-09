@@ -4,10 +4,14 @@
 
 #menu{
     padding: 0px;
+    list-style-type: none;
+    
 }
 
 #menu li{
-    display: inline;
+    float:left;
+    border-right: 1px solid red;
+    
     
 }
 
@@ -17,6 +21,11 @@
     color: white;
     padding: 20px;
     text-decoration: none;
+    display: block;
+}
+
+#menu li:last-child{
+    border-right: none;
 }
 
 #menu li a:hover{
