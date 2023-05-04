@@ -49,7 +49,7 @@
     padding: 0;
     position: absolute;
     left: -9999px;
-    transition: 2s all ease;
+    transition: 1s all ease;
 }
 
 #menu li ul li{
@@ -59,10 +59,21 @@
     border-top: 1px solid #605b5b;
     border-bottom: 1px solid #2b2a2a;
     width: 170px;
+    position: relative;
 }
 
 #menu li:hover ul{
     left: 0;
+}
+
+#menu li ul li ul{
+    position: absolute;
+    top: -9999px;
+    left: 170px;
+}
+#menu li ul li:hover ul{
+    top:0;
+    left: 170px;
 }
 
 
