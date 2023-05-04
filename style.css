@@ -14,22 +14,22 @@
 }
 
 #menu li{
+    
     float:left;
     border-right: 1px solid #605b5b;
     border-left: 1px solid #2b2a2a;
-    
-    
+    position: relative;
     
     
 }
 
 #menu li a{
-    
-    
     color: white;
     padding: 10px;
+    background: #4e4e4e;
     text-decoration: none;
     display: block;
+    transition: 1s ease all;
 }
 
 #menu li:last-child{
@@ -41,7 +41,28 @@
 
 #menu li a:hover{
     background-color: orange;
-    transition: 1s ease all;
+    
+}
+
+#menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -9999px;
+    transition: 2s all ease;
+}
+
+#menu li ul li{
+    float: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #605b5b;
+    border-bottom: 1px solid #2b2a2a;
+    width: 170px;
+}
+
+#menu li:hover ul{
+    left: 0;
 }
 
 
