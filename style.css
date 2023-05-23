@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@font-face {
+    font-family: RubikPuddles-Regular;
+    src: url(font/RubikPuddles-Regular.eot) format(eot),
+    url(font/RubikPuddles-Regular.ttf) format(ttf),
+    url(font/RubikPuddles-Regular.svg#RubikPuddles-Regular) format(svg),
+    url(font/RubikPuddles-Regular.woff) format(woff);
+}
+
 p{
-    font-family:  'Open Sans', sans-serif;
+    font-family: RubikPuddles-Regular;
     font-weight: bold;
+    color: red;
 }
