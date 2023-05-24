@@ -5,3 +5,8 @@
     url(../font/RubikPuddles-Regular.svg#RubikPuddles-Regular) format(svg),
     url(../font/RubikPuddles-Regular.woff) format(woff);
 }
+
+@font-face {
+    font-family: SolaimanLipi;
+    src: url(../font/SolaimanLipi.ttf);
+}

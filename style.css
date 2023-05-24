@@ -1,5 +1,9 @@
-p{
+.a{
     font-family: RubikPuddles-Regular;
     font-weight: bold;
     color: red;
+}
+
+.b{
+    font-family: SolaimanLipi;
 }
