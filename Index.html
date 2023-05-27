@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My New Web Design Project start </title>
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font/font.css">
 </head>
+
+<body>
+
+
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="Images/toystory.jpg" data-thumb="Images/toystory.jpg" alt="" />
+
+            <a href="http://dev7studios.com"><img src="Images/up.jpg" data-thumb="Images/up.jpg" alt="" title="This is an example of a caption" /></a>
+
+            <img src="Images/walle.jpg" data-thumb="Images/walle.jpg" alt="" data-transition="slideInLeft" />
+
+            <img src="Images/nemo.jpg" data-thumb="Images/nemo.jpg" alt="" title="#htmlcaption" />
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
 
 <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut fugit beatae dignissimos autem tempore quasi eos exercitationem accusamus odit dicta, ex obcaecati omnis quas maxime, deleniti saepe perferendis pariatur?</p>
 
