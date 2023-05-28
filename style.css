@@ -1,9 +1,15 @@
-.a{
-    font-family: RubikPuddles-Regular;
-    font-weight: bold;
-    color: red;
+.nivoSlider {
+    width: 60%;
+  
 }
 
-.b{
-    font-family: SolaimanLipi;
+.theme-dark.slider-wrapper {
+    background: none;
+    margin-left: 300px;
+}
+
+.nivo-caption {
+    left: 0px;
+    bottom: 31px;
+    width: 40%;
 }
