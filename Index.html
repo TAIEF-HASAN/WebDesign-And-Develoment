@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My New Web Design Project start </title>
-
-    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <!--
+        <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bjqs-1.3.min.js"></script>	
+	<link rel="stylesheet" href="bjqs.css">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font/font.css">
@@ -18,8 +22,88 @@
 
 <body>
 
+    <div class="bnrLft">
+        <div id="banner-slide">
+          <!-- start Basic Jquery Slider -->
+          <ul class="bjqs">
+            <li><img src="Images/banner01.jpg" alt="">
+              <div class="bjqs-caption">
+                <h2>WHAT WE OFFER</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                  consectetur adipisicing elit</p>
+                <a href="#">READ MORE</a> </div>
+            </li>
+            <li><img src="Images/banner02.jpg" alt="">
+              <div class="bjqs-caption">
+                <h2>WHAT WE OFFER</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                  consectetur adipisicing elit</p>
+                <a href="#">READ MORE</a> </div>
+            </li>
+            <li><img src="Images/banner03.jpg" alt="">
+              <div class="bjqs-caption">
+                <h2>WHAT WE OFFER</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                  consectetur adipisicing elit</p>
+                <a href="#">READ MORE</a> </div>
+            </li>
+          </ul>
+          <!-- end Basic jQuery Slider -->
+        </div>
+      </div>
+      <!-- End outer wrapper -->
+   
+  <script class="secret-source">
+          jQuery(document).ready(function($) {
+            
+            $('#banner-slide').bjqs({
+              animtype      : 'slide',
+              height        : 395,
+              width         : 617,
+              responsive    : true,
+              randomstart   : false
+            });
+            
+          });
+  </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/bjqs-1.3.min.js"></script>
+      <script type="text/javascript" src="js/acor.js">
+  
+  /***********************************************
+  * Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+  * Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+  * This notice must stay intact for legal use
+  ***********************************************/
+  
+  </script>
 
-    <div class="slider-wrapper theme-bar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="slider-wrapper theme-bar">
         <div id="slider" class="nivoSlider">
             <img src="Images/toystory.jpg" data-thumb="Images/toystory.jpg" alt="" />
 
@@ -41,6 +125,10 @@
         $('#slider').nivoSlider();
     });
     </script>
+
+-->
+
+    
 </body>
 
 
