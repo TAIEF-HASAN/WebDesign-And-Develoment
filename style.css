@@ -79,6 +79,11 @@ body{
    border-top: 3px solid darkgreen;
 }
 
+#content_wrapper{
+    background-color: white;
+    border-top: 5px solid darkgreen;
+}
+
 
 /*
 .nivoSlider {
