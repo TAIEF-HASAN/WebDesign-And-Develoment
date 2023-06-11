@@ -79,10 +79,54 @@ body{
    border-top: 3px solid darkgreen;
 }
 
+#slider img{
+    vertical-align: middle;
+}
+
 #content_wrapper{
     background-color: white;
     border-top: 5px solid darkgreen;
+    padding: 14px;
+    min-height: 150px;
+    overflow: hidden;
 }
+
+#content{
+    width: 480px;
+    margin-right: 10px;
+    
+    float: left;
+}
+
+#aside{
+    width: 240px;
+    margin-left: 5px;
+    float:left;
+   
+}
+
+#aside ul li{
+    list-style-type: circle ;
+}
+
+#aside ul li a{
+   text-decoration: none;
+   padding: 3px;
+   display: block;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 /*
