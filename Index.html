@@ -5,6 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Website</title>
+
+  <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,9 +44,20 @@
     </nav>
   
     <section>
-      <div id="slider">
-        <img src="Images/S-Jobs.jpg" alt="Stive S-Jobs">
-      </div>
+      <div id="slider_wrapper">
+
+        <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                <img src="images/Albert-E.png" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                <img src="images/S-Jobs.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+        </div>
+
+    </div>
     </section>
   
     <div id="content_wrapper">
@@ -66,10 +85,15 @@
     <footer id="footer">
       <div>&copy All right Reserve by Us</div>
     </footer>
-
-    
-
   </div>
+
+  <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script>
 </body>
 </html>
 
