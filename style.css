@@ -32,6 +32,7 @@ body{
 #nav ul{
     background-color: white;
     list-style-type: none;
+    z-index: 999;
 }
 #nav ul li{
     float: left;
@@ -69,10 +70,10 @@ body{
 }
 #nav ul li ul li{
     float: none;
-   
     border-right: none;
     border-bottom: 3px solid darkgreen;
-    width:150px
+    width:150px;
+
 }
 
 #nav ul li ul li:first-child{
