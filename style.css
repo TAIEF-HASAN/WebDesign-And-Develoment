@@ -86,7 +86,7 @@ body{
 
 #content_wrapper{
     background-color: white;
-    border-top: 5px solid darkgreen;
+    
     padding: 14px;
     min-height: 150px;
     overflow: hidden;
@@ -95,8 +95,20 @@ body{
 #content{
     width: 480px;
     margin-right: 10px;
-    
     float: left;
+}
+#content p{
+    margin: 15px 0px;
+}
+
+#content h3{
+    color: rgb(97, 182, 17);
+    font-size: 20px;
+}
+
+#content img{
+    margin: 0 auto;
+    display: block;
 }
 
 #aside{
