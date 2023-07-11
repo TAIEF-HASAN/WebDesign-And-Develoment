@@ -157,8 +157,32 @@ blockquote{
     text-align: center;
 }
 
+#main_article_single{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; 
 
+}
 
+#para_img_wrap img{
+    width: 134px;
+    height: 134px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px;
+    margin-right: 10px;
+    float: left;
+}
+
+#para_img_wrap p{
+   float: left;
+   width: 325px;
+   margin-top: 0;
+}
+
+#para_img_wrap{
+    margin-top:20px;
+}
 
 
 
